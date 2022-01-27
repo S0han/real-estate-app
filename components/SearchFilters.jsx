@@ -5,9 +5,9 @@ import { MdCancel } from 'react-icons/md';
 import Image from 'next/image';
 
 const SearchFilters = () => {
-    <div>
+    return (<div>
         searchFilters
-    </div>
+    </div>);
 }
 
 export default SearchFilters;
