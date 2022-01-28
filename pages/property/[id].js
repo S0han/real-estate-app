@@ -46,7 +46,7 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
                 )}
             </Flex>
             <Box>
-                {amenities.length  && <Text fontSize='2xl' fontWeight='black' fontWeight='black'>Amenities</Text>}
+                {amenities.length  && <Text fontSize='2xl' fontWeight='black'>Amenities</Text>}
                     <Flex flexWrap='wrap'>
                         {amenities.map((item) => (
                             item.amenities.map((amenity) => (
